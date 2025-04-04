@@ -1,0 +1,54 @@
+.app-container {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f3f4f6;
+}
+
+.main-wrapper {
+    flex: 1;
+    margin-left: 260px;
+    transition: margin-left 0.3s;
+}
+
+.content-wrapper {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.welcome-message {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.welcome-message h1 {
+    color: #1f2937;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.welcome-message p {
+    color: #6b7280;
+    font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+    .main-wrapper {
+        margin-left: 0;
+    }
+    
+    .welcome-message {
+        padding: 1.5rem;
+    }
+    
+    .welcome-message h1 {
+        font-size: 1.5rem;
+    }
+    
+    .welcome-message p {
+        font-size: 1rem;
+    }
+} 
