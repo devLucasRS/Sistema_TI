@@ -155,6 +155,5 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## 📫 Contato
 
-Seu Nome - [@seu_twitter](https://twitter.com/seu_twitter) - email@exemplo.com
 
 Link do Projeto: [https://github.com/seu_usuario/sistema-tec](https://github.com/seu_usuario/sistema-tec) 
